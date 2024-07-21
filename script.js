@@ -4,6 +4,7 @@ const registerlink = document.querySelector('.register-link');
 const btnPopup = document.querySelector('.btnlogin-popup');
 const iconclose = document.querySelector('.icon-close');
 
+
 registerlink.addEventListener('click', ()=>{
     wrapper.classList.add('active');
 })
@@ -19,3 +20,4 @@ btnPopup.addEventListener('click', ()=>{
 iconclose.addEventListener('click', ()=>{
     wrapper.classList.remove('active-popup');
 })
+
